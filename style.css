@@ -1,0 +1,320 @@
+/*CSS Reset*/
+*{
+    margin:0px;
+    padding:0px;
+}
+/*Header Styling*/
+body a {
+    text-decoration: none;
+    color: black;
+}
+#top{
+    color:rgb(29, 26, 202);
+    text-align:center;
+    font-size:46px;
+    font-family: cursive;
+    background-color: rgb(201, 202, 203);
+    text-shadow: 5px 5px 5px  white;
+}
+#top1{
+    text-align:center;
+    color:rgb(215, 42, 192);
+    font-size:21px;
+    font-family: cursive;
+    background-color: rgb(201, 202, 203);
+}
+/* Navigation bar styling*/
+
+/*Navbar image styling*/
+#navbar img{
+    
+    width: 60px;
+    height:60px;
+     display: flex;
+    margin-bottom: 3px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+/*Navbar Functionality*/
+#navbar{
+    display:flex;
+    flex-direction: column;
+    background-color: gray;
+    height: 12vh;
+    width: 100vw;
+    font-family: cursive;
+    margin-top:5px;
+   border: 2px solid black;
+   
+}
+
+
+/*Navbar content functionality*/
+#navcontent{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Navbar content styling*/
+ul li{
+    list-style: none;
+    margin: 15px;
+    border-radius: 10px;
+}
+ul li a{
+    
+    padding: 5px;
+    color:white;
+    text-decoration: none;
+    border-radius:10px;
+}
+ul li a:hover{
+    background-color: rgb(34, 221, 40);
+    border-radius: 10px;
+}
+
+/* website background image designing */
+#container1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height:63vh;
+}
+
+/*Setting the background image using before pseudo selector*/ 
+#container1::before{
+    content:'';
+    background: url("87930581.webp") no-repeat center center/cover;
+    width: 100vw;
+    height:59vh;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    font-family: cursive;
+    margin-right:45px;
+    font-weight: bold;
+    z-index: -1;
+    opacity: 0.79;
+    border: 2px solid black;
+    
+}
+
+#row1{
+   color: rgb(16, 4, 3);
+    font-weight:bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 35px;
+    text-shadow: 3px 3px 3px rgb(90, 90, 90);
+    
+}
+/*Button Styling*/
+.btn{
+    text-decoration: none;
+    color: black;
+    margin-top:15px;
+    border: 1.5px solid white;
+    border-radius:10px;
+    background-color:rgb(192, 252, 239);
+    font-size:20px;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 2px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(18, 226, 63);
+}
+
+
+#container3{
+    display: flex;
+    justify-content: space-evenly;
+}
+#row2{
+    width:24vw;
+    height:21vh;
+    box-shadow: 2px 7px 16px 19px;
+     margin-top:51px;
+     margin-bottom: 51px;
+     display: flex;
+    justify-content: center;
+     align-items: flex-end;
+     position: relative;
+     margin-right: 38px;
+     border-radius: 40px;
+}
+#row2::before{
+    content: '';
+    background: url('chef-cooking-fried-chicken-and-delicious-sign-png_103460.jpg') no-repeat center/cover;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 24vw;
+    height:21vh;
+    z-index: -1;
+    border-radius: 40px;
+}
+#row3{
+    position: relative;
+    width: 24vw;
+    height:21vh;
+    display: flex;
+    justify-content: center;
+     align-items: flex-end;
+     box-shadow: 2px 7px 16px 19px;
+     margin-top:51px;
+     margin-bottom: 51px;
+     
+     margin-left: 38px;
+     border-radius: 40px;
+}
+#row3::before{
+    content: '';
+    background: url('87930581.webp') no-repeat  center/cover;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 24vw;
+    height:21vh;
+    z-index: -1;
+    border-radius: 40px;
+}
+
+#top3{
+    text-align: center;
+    color:rgb(14, 23, 67);
+    font-family: cursive;
+    text-shadow: 5px 5px 5px rgb(108, 107, 107);
+}
+#container4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 41px;
+}  
+#row4{
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
+    background:url('87930581.webp') no-repeat center center/cover; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+#row5{
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
+    background:url('laal-maas-laal-chicken-famous-rajasthani-dish-laal-maas-famous-rajasthani-dish-indian-dinner-laal-chicken-181225971.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+#row6{
+    width: 30vw;
+    height: 360px;
+    border: 2px solid black;
+    background:url('pexels-chan-walrus-958545.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+/*Designing the footer*/
+footer{
+    text-align: center;
+    background-color: darkgrey;
+}
+/*Designing of Contact Us*/
+#ContactUs{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(154, 248, 247);
+}
+.form-shape input, .form-shape select, .form-shape textarea{
+   width: 92%;
+   padding: 0.5rem;
+   border-radius: 5px;
+
+}
+/*Changing the color of placeholder*/
+::placeholder{                  
+    color:rgb(23, 52, 102);
+    
+}
+
+/*Making the webpage responsive using media queries*/
+@media only screen and (max-width:1131px){
+    #row4{
+        width: 42vw;
+    }
+    #row5{
+        width:45vw;
+    }
+    #row6{
+        margin-top: 20px;
+        width:90vw;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:781px)
+{
+    #row4{
+        width:84vw;
+        margin: auto;
+        margin-left: 22px;
+    }
+    #row5{
+        
+        width:84vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+    #row6{
+        width:84vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+}
+@media only screen and (max-width:600px){
+    #row4{
+        width:78vw;
+        margin: auto;
+        margin-left: 3px;
+    }
+    #row5{
+        
+        width:78vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 3px;
+    }
+    #row6{
+        width:78vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 3px;
+    }
+}
+@media only screen and (min-height:1000px){
+    #navbar{
+        height:10vh;
+    }
+    #container1::before{
+        height:39vh;
+    }
+    #container1{
+        height:44vh
+    }
+}
